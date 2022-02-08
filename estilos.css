@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & family= Roboto+Slab & display=swap');
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto, Condesed, sans-serif';
+    line-height: 180%;
+    color: #444;
+    text-align: center;
+}
+.foto1{
+    background-image: url(IMG/imagen-parallex.jpg);
+    min-height: 100%;
+}
+.foto2{
+    background-image: url(IMG/imagen-4.jpg);
+    min-height: 60%;
+}
+.foto3{
+    background-image: url(IMG/imagen-3.jpg);
+    min-height: 40%;
+}
+.foto4{
+    background-image: url(IMG/imagen-5.jpg);
+    min-height: 100%;
+}
+.foto1, .foto2, .foto3, .foto4{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.letrero{
+    color: #fbfbfb;
+    font-size: 550%;
+    position: absolute;
+    top: 50%;
+}
+.letrero2{
+    color: #c73256;
+    font-size: 450%;
+    top: 60%;
+}
+.letrero3{
+    color: #d1345b;
+    font-size: 350%;
+    top: 69%;
+}
+.letrtero4{
+    color: #fff;
+    font-size: 250%;
+    top: 45%;
+}
+.letrero, .letrero2, .letrero3, .letrtero4{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+section{
+    padding: 50px 80px;
+}
+.dark{
+    background-color: #444;
+    color: #fff;
+}
+@media (max-widht: 768px){
+    .letrero{
+        font-size:30px;
+        top: auto;
+    }
+    .letrero2{
+        font-size: 15px;
+        top: auto;
+    }
+    .letrero3{
+        font-size: 5px;
+        top: auto;
+    }
+}
